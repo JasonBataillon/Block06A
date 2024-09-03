@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+.main {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+header {
+  background-color: yellow;
+}
+footer {
+  background-color: purple;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  flex: 0 0 10px;
+}
+.left-side {
+  background-color: red;
+  display: flex;
+  text-align: center;
+}
+.center {
+  background-color: green;
+  display: flex;
+}
+.right-side {
+  background-color: blue;
+  display: flex;
+  text-align: center;
+}
