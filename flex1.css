@@ -15,30 +15,26 @@ body {
 }
 header {
   padding: 1rem 2rem;
-  background-color: yellow;
 }
 footer {
-  background-color: purple;
   padding: 1rem 2rem;
 }
 .content {
   display: flex;
+  text-align: left;
 }
 .left-side {
   padding: 1rem;
-  background-color: red;
   flex: 1;
   order: 0;
 }
 .center {
   padding: 1rem;
-  background-color: green;
   flex: 3;
   order: 1;
 }
 .right-side {
   padding: 1rem;
-  background-color: blue;
   flex: 1;
   order: 2;
 }
