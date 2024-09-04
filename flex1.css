@@ -5,36 +5,40 @@
 }
 body {
   display: flex;
-  justify-content: center;
-}
-.main {
-  display: flex;
-  flex-flow: column wrap;
+  height: 100vh;
+  flex-direction: column;
   text-align: center;
 }
+body > *,
+.content > * {
+  border: 1px solid black;
+}
 header {
+  padding: 1rem 2rem;
   background-color: yellow;
 }
 footer {
   background-color: purple;
+  padding: 1rem 2rem;
 }
 .content {
   display: flex;
-  justify-content: space-between;
-  flex-flow: row wrap;
-  flex: 0 0 10px;
 }
 .left-side {
+  padding: 1rem;
   background-color: red;
-  display: flex;
-  text-align: center;
+  flex: 1;
+  order: 0;
 }
 .center {
+  padding: 1rem;
   background-color: green;
-  display: flex;
+  flex: 3;
+  order: 1;
 }
 .right-side {
+  padding: 1rem;
   background-color: blue;
-  display: flex;
-  text-align: center;
+  flex: 1;
+  order: 2;
 }
