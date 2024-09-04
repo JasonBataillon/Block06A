@@ -3,15 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+body > *,
+.content > * {
+  border: 1px solid black;
+}
 body {
   display: flex;
   height: 100vh;
   flex-direction: column;
   text-align: center;
-}
-body > *,
-.content > * {
-  border: 1px solid black;
 }
 header {
   padding: 1rem 2rem;
